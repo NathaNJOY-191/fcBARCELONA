@@ -1,0 +1,84 @@
+/* General Styles */
+body {
+    font-family: 'Arial', sans-serif;
+}
+
+h2 {
+    font-weight: bold;
+    color: #1b1f38;
+}
+
+/* Banner Section */
+#banner {
+    background-color: #003366;
+    background-image: url('barcelona-banner.jpg'); /* Replace with actual image */
+    background-size: cover;
+    background-position: center;
+    color: white;
+}
+
+#banner h1 {
+    font-size: 3rem;
+    font-weight: bold;
+}
+
+#banner p {
+    font-size: 1.2rem;
+}
+
+#banner .btn-lg {
+    background-color: #e63946;
+    border: none;
+    color: white;
+}
+
+#banner .btn-lg:hover {
+    background-color: #d32f2f;
+}
+
+/* Carousel Section */
+.carousel-item img {
+    height: 500px;
+    object-fit: cover;
+}
+
+/* News Cards */
+.card-title {
+    color: #1b1f38;
+    font-weight: bold;
+}
+
+.card-text {
+    font-size: 0.95rem;
+    color: #555;
+}
+
+.card-body {
+    background-color: #f9f9f9;
+    border-top: 2px solid #ffd700;
+}
+
+.card-img-top {
+    height: 250px;
+    object-fit: cover;
+}
+
+.btn-primary {
+    background-color: #e63946;
+    border: none;
+    transition: background-color 0.3s ease;
+}
+
+.btn-primary:hover {
+    background-color: #c72e36;
+}
+
+/* Footer */
+footer a {
+    font-weight: bold;
+    transition: color 0.3s;
+}
+
+footer a:hover {
+    color: #ffd700;
+}
